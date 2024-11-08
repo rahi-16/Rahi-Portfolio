@@ -1,0 +1,100 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer .fa {
+    margin-right: 15px;
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* For smaller screens, stack the columns */
+@media (max-width: 767px) {
+    footer .col-md-4 {
+        margin-bottom: 15px;
+    }
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+/* Custom Styles for Banner */
+
+
+
+.banner {
+    height: 500px; /* Set a fixed height for the banner */
+    background-image: url("banner.png"); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center;
+    
+}
+
+.banner h2 {
+    font-style: italic;
+    color: #333;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.banner img {
+    width: 400px; /* Control image size */
+    height: auto;
+    border: 5px solid #ddd; /* Border around the image */
+}
